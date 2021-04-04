@@ -15,6 +15,9 @@
 		4822D922261862670046B9C1 /* OutlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D921261862670046B9C1 /* OutlineViewModel.swift */; };
 		4822D93C26186E800046B9C1 /* OutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D93A26186E800046B9C1 /* OutlineTableViewCell.swift */; };
 		4822D93D26186E800046B9C1 /* OutlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4822D93B26186E800046B9C1 /* OutlineTableViewCell.xib */; };
+		4822D94026187B290046B9C1 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D93F26187B290046B9C1 /* GridViewModel.swift */; };
+		4822D9482619BC020046B9C1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D9462619BC020046B9C1 /* CollectionViewCell.swift */; };
+		4822D9492619BC020046B9C1 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4822D9472619BC020046B9C1 /* CollectionViewCell.xib */; };
 		48C19AEA260A0A7E00397FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C19AE9260A0A7E00397FDD /* AppDelegate.swift */; };
 		48C19AEC260A0A7E00397FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C19AEB260A0A7E00397FDD /* SceneDelegate.swift */; };
 		48C19AF1260A0A7E00397FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C19AEF260A0A7E00397FDD /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		4822D921261862670046B9C1 /* OutlineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewModel.swift; sourceTree = "<group>"; };
 		4822D93A26186E800046B9C1 /* OutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineTableViewCell.swift; sourceTree = "<group>"; };
 		4822D93B26186E800046B9C1 /* OutlineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutlineTableViewCell.xib; sourceTree = "<group>"; };
+		4822D93F26187B290046B9C1 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		4822D9462619BC020046B9C1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4822D9472619BC020046B9C1 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		48C19AE6260A0A7E00397FDD /* CompositionalLayoutsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalLayoutsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C19AE9260A0A7E00397FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C19AEB260A0A7E00397FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				4822D921261862670046B9C1 /* OutlineViewModel.swift */,
+				4822D93F26187B290046B9C1 /* GridViewModel.swift */,
 			);
 			path = InterfaceAdapter;
 			sourceTree = "<group>";
@@ -106,6 +113,8 @@
 			children = (
 				4822D93A26186E800046B9C1 /* OutlineTableViewCell.swift */,
 				4822D93B26186E800046B9C1 /* OutlineTableViewCell.xib */,
+				4822D9462619BC020046B9C1 /* CollectionViewCell.swift */,
+				4822D9472619BC020046B9C1 /* CollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -218,6 +227,7 @@
 			files = (
 				4822D90F261604F70046B9C1 /* GridViewController.xib in Resources */,
 				48C19AF6260A0A7F00397FDD /* LaunchScreen.storyboard in Resources */,
+				4822D9492619BC020046B9C1 /* CollectionViewCell.xib in Resources */,
 				4822D91E26160AFE0046B9C1 /* README.md in Resources */,
 				48C19AF3260A0A7F00397FDD /* Assets.xcassets in Resources */,
 				4822D93D26186E800046B9C1 /* OutlineTableViewCell.xib in Resources */,
@@ -276,7 +286,9 @@
 			files = (
 				4822D90E261604F70046B9C1 /* GridViewController.swift in Sources */,
 				4822D922261862670046B9C1 /* OutlineViewModel.swift in Sources */,
+				4822D94026187B290046B9C1 /* GridViewModel.swift in Sources */,
 				4822D91A2616060F0046B9C1 /* OutlineViewController.swift in Sources */,
+				4822D9482619BC020046B9C1 /* CollectionViewCell.swift in Sources */,
 				48C19AEA260A0A7E00397FDD /* AppDelegate.swift in Sources */,
 				4822D93C26186E800046B9C1 /* OutlineTableViewCell.swift in Sources */,
 				48C19AEC260A0A7E00397FDD /* SceneDelegate.swift in Sources */,

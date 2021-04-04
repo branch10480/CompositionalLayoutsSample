@@ -64,6 +64,11 @@ class OutlineViewController: UIViewController {
 extension OutlineViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let item = dataSource[indexPath]
+        switch item {
+        case .item(let menu):
+            navigationController?.pushViewController(menu.viewControllerType.init(), animated: true)
+        }
     }
 }
 
