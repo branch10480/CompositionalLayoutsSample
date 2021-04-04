@@ -26,7 +26,8 @@ final class OutlineViewModel: OutlineViewModelProtocol {
     
     private func setupMenuItems() {
         let basicSection = OutlineSectionModel(model: .basic, items: [
-            .item(OutlineMenu(title: "Grid Layout", viewControllerType: GridViewController.self))
+            .item(OutlineMenu(title: "Grid Layout", viewControllerType: GridViewController.self)),
+            .item(OutlineMenu(title: "Two Column Layout", viewControllerType: TwoColumnViewController.self)),
         ])
         let advancedSection = OutlineSectionModel(model: .advanced, items: [
         ])

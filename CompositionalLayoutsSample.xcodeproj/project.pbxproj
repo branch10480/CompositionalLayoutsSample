@@ -15,9 +15,12 @@
 		4822D922261862670046B9C1 /* OutlineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D921261862670046B9C1 /* OutlineViewModel.swift */; };
 		4822D93C26186E800046B9C1 /* OutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D93A26186E800046B9C1 /* OutlineTableViewCell.swift */; };
 		4822D93D26186E800046B9C1 /* OutlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4822D93B26186E800046B9C1 /* OutlineTableViewCell.xib */; };
-		4822D94026187B290046B9C1 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D93F26187B290046B9C1 /* GridViewModel.swift */; };
+		4822D94026187B290046B9C1 /* TwoColumnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D93F26187B290046B9C1 /* TwoColumnViewModel.swift */; };
 		4822D9482619BC020046B9C1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822D9462619BC020046B9C1 /* CollectionViewCell.swift */; };
 		4822D9492619BC020046B9C1 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4822D9472619BC020046B9C1 /* CollectionViewCell.xib */; };
+		48BC7BC62619C244003CD7E8 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC7BC42619C244003CD7E8 /* TwoColumnViewController.swift */; };
+		48BC7BC72619C244003CD7E8 /* TwoColumnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48BC7BC52619C244003CD7E8 /* TwoColumnViewController.xib */; };
+		48BC7BCA2619C2BE003CD7E8 /* GridViewModel copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC7BC92619C2BE003CD7E8 /* GridViewModel copy.swift */; };
 		48C19AEA260A0A7E00397FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C19AE9260A0A7E00397FDD /* AppDelegate.swift */; };
 		48C19AEC260A0A7E00397FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C19AEB260A0A7E00397FDD /* SceneDelegate.swift */; };
 		48C19AF1260A0A7E00397FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C19AEF260A0A7E00397FDD /* Main.storyboard */; };
@@ -34,9 +37,12 @@
 		4822D921261862670046B9C1 /* OutlineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewModel.swift; sourceTree = "<group>"; };
 		4822D93A26186E800046B9C1 /* OutlineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineTableViewCell.swift; sourceTree = "<group>"; };
 		4822D93B26186E800046B9C1 /* OutlineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutlineTableViewCell.xib; sourceTree = "<group>"; };
-		4822D93F26187B290046B9C1 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		4822D93F26187B290046B9C1 /* TwoColumnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewModel.swift; sourceTree = "<group>"; };
 		4822D9462619BC020046B9C1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		4822D9472619BC020046B9C1 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		48BC7BC42619C244003CD7E8 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
+		48BC7BC52619C244003CD7E8 /* TwoColumnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoColumnViewController.xib; sourceTree = "<group>"; };
+		48BC7BC92619C2BE003CD7E8 /* GridViewModel copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GridViewModel copy.swift"; sourceTree = "<group>"; };
 		48C19AE6260A0A7E00397FDD /* CompositionalLayoutsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalLayoutsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C19AE9260A0A7E00397FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C19AEB260A0A7E00397FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,7 @@
 		4822D90A261604C20046B9C1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				48BC7BC32619C223003CD7E8 /* TwoColumn */,
 				4822D93926186E530046B9C1 /* Cell */,
 				4822D918261605F90046B9C1 /* Outline */,
 				4822D90B261604D00046B9C1 /* Grid */,
@@ -103,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				4822D921261862670046B9C1 /* OutlineViewModel.swift */,
-				4822D93F26187B290046B9C1 /* GridViewModel.swift */,
+				48BC7BC92619C2BE003CD7E8 /* GridViewModel copy.swift */,
+				4822D93F26187B290046B9C1 /* TwoColumnViewModel.swift */,
 			);
 			path = InterfaceAdapter;
 			sourceTree = "<group>";
@@ -117,6 +125,15 @@
 				4822D9472619BC020046B9C1 /* CollectionViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		48BC7BC32619C223003CD7E8 /* TwoColumn */ = {
+			isa = PBXGroup;
+			children = (
+				48BC7BC42619C244003CD7E8 /* TwoColumnViewController.swift */,
+				48BC7BC52619C244003CD7E8 /* TwoColumnViewController.xib */,
+			);
+			path = TwoColumn;
 			sourceTree = "<group>";
 		};
 		48C19ADD260A0A7E00397FDD = {
@@ -228,6 +245,7 @@
 				4822D90F261604F70046B9C1 /* GridViewController.xib in Resources */,
 				48C19AF6260A0A7F00397FDD /* LaunchScreen.storyboard in Resources */,
 				4822D9492619BC020046B9C1 /* CollectionViewCell.xib in Resources */,
+				48BC7BC72619C244003CD7E8 /* TwoColumnViewController.xib in Resources */,
 				4822D91E26160AFE0046B9C1 /* README.md in Resources */,
 				48C19AF3260A0A7F00397FDD /* Assets.xcassets in Resources */,
 				4822D93D26186E800046B9C1 /* OutlineTableViewCell.xib in Resources */,
@@ -284,13 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BC7BC62619C244003CD7E8 /* TwoColumnViewController.swift in Sources */,
 				4822D90E261604F70046B9C1 /* GridViewController.swift in Sources */,
 				4822D922261862670046B9C1 /* OutlineViewModel.swift in Sources */,
-				4822D94026187B290046B9C1 /* GridViewModel.swift in Sources */,
+				4822D94026187B290046B9C1 /* TwoColumnViewModel.swift in Sources */,
 				4822D91A2616060F0046B9C1 /* OutlineViewController.swift in Sources */,
 				4822D9482619BC020046B9C1 /* CollectionViewCell.swift in Sources */,
 				48C19AEA260A0A7E00397FDD /* AppDelegate.swift in Sources */,
 				4822D93C26186E800046B9C1 /* OutlineTableViewCell.swift in Sources */,
+				48BC7BCA2619C2BE003CD7E8 /* GridViewModel copy.swift in Sources */,
 				48C19AEC260A0A7E00397FDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
