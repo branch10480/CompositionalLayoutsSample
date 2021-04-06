@@ -31,6 +31,9 @@
 		48C19AF1260A0A7E00397FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C19AEF260A0A7E00397FDD /* Main.storyboard */; };
 		48C19AF3260A0A7F00397FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C19AF2260A0A7F00397FDD /* Assets.xcassets */; };
 		48C19AF6260A0A7F00397FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C19AF4260A0A7F00397FDD /* LaunchScreen.storyboard */; };
+		48E88C52261B5ADB009F5528 /* AdaptiveSectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E88C51261B5ADB009F5528 /* AdaptiveSectionsViewModel.swift */; };
+		48E88C55261B5B48009F5528 /* AdaptiveSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E88C4F261B5A84009F5528 /* AdaptiveSectionsViewController.swift */; };
+		48E88C56261B5B48009F5528 /* AdaptiveSectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E88C4E261B5A84009F5528 /* AdaptiveSectionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		48C19AF2260A0A7F00397FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48C19AF5260A0A7F00397FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48C19AF7260A0A7F00397FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E88C4E261B5A84009F5528 /* AdaptiveSectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdaptiveSectionsViewController.xib; sourceTree = "<group>"; };
+		48E88C4F261B5A84009F5528 /* AdaptiveSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSectionsViewController.swift; sourceTree = "<group>"; };
+		48E88C51261B5ADB009F5528 /* AdaptiveSectionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSectionsViewModel.swift; sourceTree = "<group>"; };
 		83B2EE9A7EF73B2391321CB1 /* Pods-CompositionalLayoutsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompositionalLayoutsSample.debug.xcconfig"; path = "Target Support Files/Pods-CompositionalLayoutsSample/Pods-CompositionalLayoutsSample.debug.xcconfig"; sourceTree = "<group>"; };
 		D6E23EE65F8613D121B57428 /* Pods-CompositionalLayoutsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompositionalLayoutsSample.release.xcconfig"; path = "Target Support Files/Pods-CompositionalLayoutsSample/Pods-CompositionalLayoutsSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +129,7 @@
 				4822D921261862670046B9C1 /* OutlineViewModel.swift */,
 				48BC7BC92619C2BE003CD7E8 /* GridViewModel.swift */,
 				48BC7BD22619C8AA003CD7E8 /* DistinctSectionsViewModel.swift */,
+				48E88C51261B5ADB009F5528 /* AdaptiveSectionsViewModel.swift */,
 				4822D93F26187B290046B9C1 /* TwoColumnViewModel.swift */,
 			);
 			path = InterfaceAdapter;
@@ -153,6 +160,7 @@
 		48BC7BCD2619C7C2003CD7E8 /* PerSectionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				48E88C46261B5A4A009F5528 /* AdaptiveSections */,
 				48BC7BCE2619C7E3003CD7E8 /* DistinctSections */,
 			);
 			path = PerSectionLayout;
@@ -195,6 +203,15 @@
 				48C19AF2260A0A7F00397FDD /* Assets.xcassets */,
 			);
 			path = CompositionalLayoutsSample;
+			sourceTree = "<group>";
+		};
+		48E88C46261B5A4A009F5528 /* AdaptiveSections */ = {
+			isa = PBXGroup;
+			children = (
+				48E88C4F261B5A84009F5528 /* AdaptiveSectionsViewController.swift */,
+				48E88C4E261B5A84009F5528 /* AdaptiveSectionsViewController.xib */,
+			);
+			path = AdaptiveSections;
 			sourceTree = "<group>";
 		};
 		AAE99C4371631E035FFD0431 /* Pods */ = {
@@ -276,6 +293,7 @@
 				48BC7BE42619D210003CD7E8 /* ListCollectionViewCell.xib in Resources */,
 				4822D90F261604F70046B9C1 /* GridViewController.xib in Resources */,
 				48C19AF6260A0A7F00397FDD /* LaunchScreen.storyboard in Resources */,
+				48E88C56261B5B48009F5528 /* AdaptiveSectionsViewController.xib in Resources */,
 				4822D9492619BC020046B9C1 /* CollectionViewCell.xib in Resources */,
 				48BC7BC72619C244003CD7E8 /* TwoColumnViewController.xib in Resources */,
 				4822D91E26160AFE0046B9C1 /* README.md in Resources */,
@@ -337,9 +355,11 @@
 			files = (
 				48BC7BDD2619C985003CD7E8 /* DistinctSectionsViewController.swift in Sources */,
 				48BC7BC62619C244003CD7E8 /* TwoColumnViewController.swift in Sources */,
+				48E88C52261B5ADB009F5528 /* AdaptiveSectionsViewModel.swift in Sources */,
 				48BC7BD32619C8AA003CD7E8 /* DistinctSectionsViewModel.swift in Sources */,
 				4822D90E261604F70046B9C1 /* GridViewController.swift in Sources */,
 				4822D922261862670046B9C1 /* OutlineViewModel.swift in Sources */,
+				48E88C55261B5B48009F5528 /* AdaptiveSectionsViewController.swift in Sources */,
 				4822D94026187B290046B9C1 /* TwoColumnViewModel.swift in Sources */,
 				4822D91A2616060F0046B9C1 /* OutlineViewController.swift in Sources */,
 				48BC7BE32619D210003CD7E8 /* ListCollectionViewCell.swift in Sources */,
