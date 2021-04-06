@@ -7,4 +7,5 @@ This sample is inspired by [Apple's tutorial](https://developer.apple.com/docume
 ![sample](https://user-images.githubusercontent.com/5299528/113525589-b10c6000-95f0-11eb-94ee-cdbdf9281050.gif)
 
 ## Adaptive-Sections Layout
-![movie](https://user-images.githubusercontent.com/5299528/113703314-9f70a880-9715-11eb-9029-9c655447b0e5.gif)
+![movie](https://user-images.githubusercontent.com/5299528/113703540-ee1e4280-9715-11eb-9853-cef97abb5c53.gif)
+
